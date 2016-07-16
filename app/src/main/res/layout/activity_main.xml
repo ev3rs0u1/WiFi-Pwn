@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBFBFB"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <com.baoyz.widget.PullRefreshLayout
+        android:id="@+id/swipeRefreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/lv_wifi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="#E0E5EA"
+            android:dividerHeight="8dp" />
+    </com.baoyz.widget.PullRefreshLayout>
+</LinearLayout>
