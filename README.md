@@ -1,5 +1,5 @@
 # WiFi-Pwn
-Network uses Retrofit and RxJava With MVP architecture  
+Network uses RxAndroid and Retrofit With MVP architecture  
 Thanks @Bilibalabo to provide API server
   
 ## Description Framework
